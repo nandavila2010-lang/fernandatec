@@ -1,0 +1,41 @@
+h1{
+    color: darkcyan;
+font-size: 40px;
+text-shadow:1px 1px 3px;
+}
+
+body{
+ background-color: rgb(178, 231, 224);
+ margin: 20px;
+}
+
+#aviso{
+    padding: 10px;
+     background-color: #99c7ca;
+     border-radius: 70px;
+ 
+}
+
+.servicos{
+    padding: 9px;
+     background-color: #99c7ca;
+     border-radius: 50px;
+     
+}
+ 
+.medico{
+    padding: 10px;
+     background-color: #99c7ca;
+     border-radius: 30px;
+}
+
+ .bemvindo{
+      font-size: 18px;
+    }
+
+
+.depoimento{
+    padding: 10px;
+     background-color: #99c7ca;
+     border-radius: 30px;
+}
