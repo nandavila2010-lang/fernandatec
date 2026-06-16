@@ -1,0 +1,27 @@
+button{
+
+color: rgb(255, 255, 255);
+background-color: rgb(116, 41, 41);
+border: none;
+padding: 100px 200px;
+border-radius: 60px;
+cursor: pointer;
+transition: all 0.3s ease;
+
+}
+
+
+button:hover{
+
+transform: translateY(-5px);
+box-shadow: 0 30px 30px rgba(255, 0, 123, 0.4);
+background-color: rgb(87, 24, 24);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: gray;
+}
