@@ -53,3 +53,5 @@ function verificarAprovacao(nota1, nota2) {
 console.log(verificarAprovacao(7, 8)); 
 console.log(verificarAprovacao(5, 6));
 
+
+
