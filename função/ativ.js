@@ -14,10 +14,10 @@ let total = calcularTotal(passagem, hospedagem, alimentação, passeios);
 
 console.log(`${nome} ficou com valor ${total}`);
 
-if (total >=2.000,00) {
-    console.log(`${nome} está dentro do orçamento!`);
+if (total >=2000) {
+    console.log(`${nome} está fora do orçamento!`);
 } else {
-    console.log(`${nome} está fora do orçamento`);
+    console.log(`${nome} está dentro do orçamento!`);
 }
 
 calcularTotal(passagem, hospedagem, alimentação, passeios)
