@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Meu portfólio</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+</head>
+<body>
+
+<!-- CABEÇALHO E MENU -->
+<header class="cabecalho">
+<a href="#inicio" class="logo">✦ Meu cantinho</a>
+
+<!-- Botão do menu para celular -->
+<button class="menu-hamburguer" id="menu-hamburguer"
+aria-label="Abrir menu" aria-expanded="false">
+☰
+</button>
+
+<nav class="menu" id="menu-principal" aria-label="Menu principal">
+<a href="#inicio">Início</a>
+<a href="#sobre">Sobre mim</a>
+<a href="#habilidades">Habilidades</a>
+<a href="#projetos">Projetos</a>
+<a href="#contato">Contato</a>
+</nav>
+
+<!-- Botão para mudar o tema -->
+<button class="botao-tema" id="botao-tema"
+aria-label="Ativar modo claro">
+☼
+</button>
+</header>
+
+<main>
+
+<!-- INÍCIO: APRESENTAÇÃO E FOTO -->
+<section class="inicio" id="inicio">
+<div class="inicio-texto">
+<p class="etiqueta">✿ MEU PORTFÓLIO PESSOAL</p>
+
+<h1 id="saudacao">Oi! Que bom ter você aqui.</h1>
+
+<h2>Eu sou <span>Seu Nome</span> ♡</h2>
+
+<p>
+    Uma frase sobre você e sua jornada na tecnologia.
+</p>
+
+<a href="#projetos" class="botao">
+    Ver meus projetos ↗
+</a>
+</div>
+
+<!-- Coloque sua foto na pasta img -->
+<div class="foto-area">
+<img src="img/minha-foto.jpg"
+    alt="Foto de apresentação de Seu Nome"
+    id="foto-perfil">
+
+<div class="foto-placeholder" id="foto-placeholder">
+    Sua foto<br>vai ficar aqui ♡
+</div>
+
+<span class="estrelinha estrela-um">✦</span>
+<span class="estrelinha estrela-dois">✧</span>
+</div>
+</section>
+
+<!-- SOBRE MIM -->
+<section class="secao sobre" id="sobre">
+<p class="numero-secao">01 / SOBRE MIM</p>
+
+<h2>Um pouquinho sobre mim <span>♡</span></h2>
+
+<p>
+Escreva aqui uma apresentação sua, seus interesses
+e o que fez você escolher o curso de TI.
+</p>
+
+<p>
+Conte também o que você deseja aprender e construir
+no futuro.
+</p>
+</section>
+
+<!-- HABILIDADES -->
+<section class="secao" id="habilidades">
+<p class="numero-secao">02 / HABILIDADES</p>
+
+<h2>Coisas que estou aprendendo</h2>
+
+<p class="introducao">
+Algumas tecnologias que conheço ou estou estudando.
+</p>
+
+<div class="habilidades-lista">
+
+<div class="habilidade">
+    <h3>HTML</h3>
+    <p>Estrutura de páginas</p>
+</div>
+
+<div class="habilidade">
+    <h3>CSS</h3>
+    <p>Estilos e cores</p>
+</div>
+
+<div class="habilidade">
+    <h3>JavaScript</h3>
+    <p>Interatividade</p>
+</div>
+
+<div class="habilidade">
+    <h3>Outra tecnologia</h3>
+    <p>Edite este cartão</p>
+</div>
+
+</div>
+</section>
+
+<!-- PROJETOS DESENVOLVIDOS -->
+<section class="secao projetos" id="projetos">
+<p class="numero-secao">03 / PROJETOS</p>
+
+<h2>Coisas que já fiz ✷</h2>
+
+<p class="introducao">
+Alguns trabalhos da minha jornada no curso.
+</p>
+
+<div class="projetos-lista">
+
+<!-- Projeto 1: troque pelo seu trabalho real -->
+<article class="cartao-projeto">
+    <div class="projeto-ilustracao ilustracao-um">
+        ✿
+    </div>
+
+    <p class="tag-projeto">PROJETO 01</p>
+    <h3>Nome do projeto</h3>
+
+    <p>
+        Escreva uma frase explicando o que você criou.
+    </p>
+
+    <!-- Troque # pelo link real, se houver -->
+    <a href="#projetos">Conhecer projeto ↗</a>
+</article>
+
+<!-- Projeto 2 -->
+<article class="cartao-projeto">
+    <div class="projeto-ilustracao ilustracao-dois">
+        ☾
+    </div>
+
+    <p class="tag-projeto">PROJETO 02</p>
+    <h3>Nome do projeto</h3>
+
+    <p>
+        Conte brevemente o que você aprendeu nele.
+    </p>
+
+    <a href="#projetos">Conhecer projeto ↗</a>
+</article>
+
+<!-- Projeto 3 -->
+<article class="cartao-projeto">
+    <div class="projeto-ilustracao ilustracao-tres">
+        ✧
+    </div>
+
+    <p class="tag-projeto">PROJETO 03</p>
+    <h3>Nome do projeto</h3>
+
+    <p>
+        Descreva outro trabalho feito durante o curso.
+    </p>
+
+    <a href="#projetos">Conhecer projeto ↗</a>
+</article>
+
+</div>
+</section>
+
+<!-- CONTATO -->
+<section class="secao contato" id="contato">
+<p class="numero-secao">04 / CONTATO</p>
+
+<h2>Vamos conversar? ♡</h2>
+
+<p class="introducao">
+Preencha os campos abaixo para testar o formulário.
+</p>
+
+<form id="form-contato">
+
+<label for="nome">Seu nome</label>
+<input type="text" id="nome" name="nome"
+    placeholder="Como você se chama?"
+    autocomplete="name" required>
+
+<label for="email">Seu e-mail</label>
+<input type="email" id="email" name="email"
+    placeholder="voce@exemplo.com"
+    autocomplete="email" required>
+
+<label for="mensagem">Mensagem</label>
+<textarea id="mensagem" name="mensagem"
+    rows="4" placeholder="Escreva sua mensagem..."
+    required></textarea>
+
+<label class="consentimento">
+    <input type="checkbox" id="consentimento" required>
+    Concordo com o uso dos meus dados para responder
+    a esta mensagem.
+</label>
+
+<button type="submit" class="botao">
+    Enviar mensagem ♡
+</button>
+
+<!-- O JavaScript mostrará o resultado aqui -->
+<p id="aviso-formulario" aria-live="polite"></p>
+
+</form>
+
+<p class="nota-privacidade">
+Formulário demonstrativo: os dados não são enviados
+nem armazenados.
+</p>
+</section>
+
+</main>
+
+<!-- RODAPÉ -->
+<footer class="rodape">
+<p>Feito com carinho por <strong>Seu Nome</strong> ✿</p>
+
+<p>© <span id="ano"></span> — Meu portfólio</p>
+
+<a href="#inicio">Voltar ao topo ↑</a>
+</footer>
+
+</body>
+</html>
