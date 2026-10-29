@@ -1,0 +1,99 @@
+
+* {
+box-sizing: border-box;
+}
+
+body {
+margin: 0;
+padding: 20px;
+font-family: Verdana, sans-serif;
+background-color: #f5f1df;
+color: #344b3b;
+}
+
+.container {
+max-width: 450px;
+margin: 40px auto;
+padding: 25px;
+background-color: #fffdf5;
+border: 2px solid #344b3b;
+border-radius: 8px;
+}
+
+h1 {
+color: #344b3b;
+font-size: 27px;
+}
+
+p {
+color: #777b65;
+}
+
+label {
+display: block;
+margin-top: 15px;
+margin-bottom: 5px;
+font-size: 14px;
+}
+
+input {
+width: 100%;
+padding: 10px;
+border: 1px solid #b8bea6;
+border-radius: 5px;
+background-color: #f9f7ed;
+}
+
+button {
+width: 100%;
+padding: 11px;
+margin-top: 15px;
+border: none;
+border-radius: 5px;
+background-color: #344b3b;
+color: white;
+font-family: Verdana, sans-serif;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #526d56;
+}
+
+#limpar {
+background-color: #e5e7d5;
+color: #344b3b;
+}
+
+#resultado {
+margin-top: 20px;
+padding: 12px;
+border-radius: 5px;
+overflow-wrap: anywhere;
+}
+
+#resultado:empty {
+display: none;
+}
+
+.sucesso {
+background-color: #dcebd9;
+color: #285b35;
+}
+
+.recuperacao {
+background-color: #fff0c9;
+color: #795b16;
+}
+
+.reprovado,
+.erro {
+background-color: #f5dede;
+color: #913b3b;
+}
+
+@media (max-width: 480px) {
+.container {
+    margin: 10px auto;
+}
+}
